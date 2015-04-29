@@ -36,17 +36,7 @@
         <!--Custom View Controller-->
         <scene sceneID="wks-ao-1Yj">
             <objects>
-                <viewController id="1KI-sn-S6n" customClass="CustomViewController" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="spk-d5-Pd2"/>
-                        <viewControllerLayoutGuide type="bottom" id="mRK-tQ-YkS"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="HlI-FI-qFh">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                </viewController>
+                <viewController id="1KI-sn-S6n" customClass="CustomViewController" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="efN-XL-nzI" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1285" y="306"/>
