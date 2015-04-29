@@ -40,6 +40,8 @@
 		DE8A19A51AF097BF001D9843 /* StoryboardXibPracticeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StoryboardXibPracticeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE8A19AA1AF097BF001D9843 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DE8A19AB1AF097BF001D9843 /* StoryboardXibPracticeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StoryboardXibPracticeTests.m; sourceTree = "<group>"; };
+		DEB66CFD1AF09CE1007C21EE /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = StoryboardXibPractice.xcodeproj/../README.md; sourceTree = "<group>"; };
+		DEB66CFE1AF09CEF007C21EE /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; name = LICENSE; path = StoryboardXibPractice.xcodeproj/../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,8 @@
 		DE8A19831AF097BF001D9843 = {
 			isa = PBXGroup;
 			children = (
+				DEB66CFD1AF09CE1007C21EE /* README.md */,
+				DEB66CFE1AF09CEF007C21EE /* LICENSE */,
 				DE8A198E1AF097BF001D9843 /* StoryboardXibPractice */,
 				DE8A19A81AF097BF001D9843 /* StoryboardXibPracticeTests */,
 				DE8A198D1AF097BF001D9843 /* Products */,
@@ -418,6 +422,7 @@
 				DE8A19B11AF097BF001D9843 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DE8A19B21AF097BF001D9843 /* Build configuration list for PBXNativeTarget "StoryboardXibPracticeTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +431,7 @@
 				DE8A19B41AF097BF001D9843 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
