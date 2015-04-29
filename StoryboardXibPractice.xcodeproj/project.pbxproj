@@ -14,6 +14,8 @@
 		DE8A199D1AF097BF001D9843 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE8A199C1AF097BF001D9843 /* Images.xcassets */; };
 		DE8A19A01AF097BF001D9843 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE8A199E1AF097BF001D9843 /* LaunchScreen.xib */; };
 		DE8A19AC1AF097BF001D9843 /* StoryboardXibPracticeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DE8A19AB1AF097BF001D9843 /* StoryboardXibPracticeTests.m */; };
+		DED982521AF0A9AA00AE754B /* CustomViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DED982501AF0A9AA00AE754B /* CustomViewController.m */; };
+		DED982531AF0A9AA00AE754B /* CustomViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DED982511AF0A9AA00AE754B /* CustomViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +44,9 @@
 		DE8A19AB1AF097BF001D9843 /* StoryboardXibPracticeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StoryboardXibPracticeTests.m; sourceTree = "<group>"; };
 		DEB66CFD1AF09CE1007C21EE /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = StoryboardXibPractice.xcodeproj/../README.md; sourceTree = "<group>"; };
 		DEB66CFE1AF09CEF007C21EE /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; name = LICENSE; path = StoryboardXibPractice.xcodeproj/../LICENSE; sourceTree = "<group>"; };
+		DED9824F1AF0A9AA00AE754B /* CustomViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomViewController.h; sourceTree = "<group>"; };
+		DED982501AF0A9AA00AE754B /* CustomViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomViewController.m; sourceTree = "<group>"; };
+		DED982511AF0A9AA00AE754B /* CustomViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +94,9 @@
 				DE8A19941AF097BF001D9843 /* AppDelegate.m */,
 				DE8A19961AF097BF001D9843 /* ViewController.h */,
 				DE8A19971AF097BF001D9843 /* ViewController.m */,
+				DED9824F1AF0A9AA00AE754B /* CustomViewController.h */,
+				DED982501AF0A9AA00AE754B /* CustomViewController.m */,
+				DED982511AF0A9AA00AE754B /* CustomViewController.xib */,
 				DE8A19991AF097BF001D9843 /* Main.storyboard */,
 				DE8A199C1AF097BF001D9843 /* Images.xcassets */,
 				DE8A199E1AF097BF001D9843 /* LaunchScreen.xib */,
@@ -206,6 +214,7 @@
 				DE8A199B1AF097BF001D9843 /* Main.storyboard in Resources */,
 				DE8A19A01AF097BF001D9843 /* LaunchScreen.xib in Resources */,
 				DE8A199D1AF097BF001D9843 /* Images.xcassets in Resources */,
+				DED982531AF0A9AA00AE754B /* CustomViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -226,6 +235,7 @@
 				DE8A19981AF097BF001D9843 /* ViewController.m in Sources */,
 				DE8A19951AF097BF001D9843 /* AppDelegate.m in Sources */,
 				DE8A19921AF097BF001D9843 /* main.m in Sources */,
+				DED982521AF0A9AA00AE754B /* CustomViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
